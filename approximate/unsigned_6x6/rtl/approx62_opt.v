@@ -1,0 +1,77 @@
+// 目前最优
+// ====== Metrics (Paper Accurate Definition) ======
+// Total Cases      =         256
+// Error Cases      =          35
+// ER               = 0.136719
+// MED              = 1.375000
+// NED              = 0.007275
+// MRED             = 0.018730
+// WCE              =          30
+// ====== Test Finished ======
+
+module approx62 (
+    input  wire [5:0] a,
+    input  wire [1:0] b,
+    output wire [7:0] prod
+);
+
+
+LUT6_2 #(
+    .INIT(64'hEAC00000A0A00000)
+) LUT6_inst1 (
+    .I0(b[0]),
+    .I1(b[1]),
+    .I2(a[0]),
+    .I3(a[1]),
+    .I4(1'b1),
+    .I5(1'b1),
+    .O5(prod[0]),
+    .O6(prod[1])
+);
+
+
+
+LUT6_2 #(
+    .INIT(64'hEEAACC00EAC0EAC0)
+) LUT6_inst2 (
+    .I0(b[0]),
+    .I1(b[1]),
+    .I2(a[1]),
+    .I3(a[2]),
+    .I4(a[3]),
+    .I5(1'b1),
+    .O5(prod[2]),
+    .O6(prod[3])
+);
+
+
+
+LUT6_2 #(
+    .INIT(64'hE6AACC006AC0EAC0)
+) LUT6_inst3 (
+    .I0(b[0]),
+    .I1(b[1]),
+    .I2(a[3]),
+    .I3(a[4]),
+    .I4(a[5]),
+    .I5(1'b1),
+    .O5(prod[4]),
+    .O6(prod[5])
+);
+
+
+
+LUT6_2 #(
+    .INIT(64'h800000004C000000)
+) LUT6_inst4 (
+    .I0(b[0]),
+    .I1(b[1]),
+    .I2(a[4]),
+    .I3(a[5]),
+    .I4(1'b1),
+    .I5(1'b1),
+    .O5(prod[6]),
+    .O6(prod[7])
+);
+
+endmodule
