@@ -1,0 +1,3 @@
+[done] rand210
+[final] score=0.0252168657 wNMSE=0.0096483914 wMSE=735.0179 wMRED=0.57673261 wER=0.379613 wMAE=11.9650 wBias=0.0131 condBias=13.8448 dotDrift=+0.031sigma uMRED=0.0316295217 uER=0.430664 uMAE=15.6465 WCE=168 bias=1.3750
+[json] /home/xuanqi/tony/work/FPGA/signed8x8_approx/signed8x8_2026_8_22/runs_qwen_default/rand210/refined/best_signed88_inits.json
