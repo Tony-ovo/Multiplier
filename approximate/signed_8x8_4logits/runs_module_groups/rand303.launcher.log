@@ -1,3 +1,0 @@
-[done] rand303
-[final] score=0.0029052171 wNMSE=0.00027539827 wMSE=51.3070 wMRED=0.10590907 wER=0.312387 wMAE=3.0041 wBias=0.0001 condBias=3.6965 dotDrift=+0.001sigma uMRED=0.0068047072 uER=0.333984 uMAE=3.6406 WCE=40 bias=-0.3750
-[json] /home/xuanqi/tony/work/FPGA/signed8x8_approx/signed8x8_2026_8_22/runs_module_groups/G3_o/balanced_split/rand303/refined/best_signed88_inits.json
