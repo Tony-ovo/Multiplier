@@ -1,3 +1,0 @@
-[done] rand300
-[final] score=0.0847089254 wNMSE=0.039897757 wMSE=2087.0313 wMRED=1.18029560 wER=0.444711 wMAE=21.1129 wBias=0.0064 condBias=23.2897 dotDrift=+0.009sigma uMRED=0.0659423308 uER=0.506348 uMAE=44.3242 WCE=320 bias=-1.7500
-[json] /home/xuanqi/tony/work/FPGA/signed8x8_approx/signed8x8_2026_8_22/runs_module_groups/G2_v/default_split/rand300/refined/best_signed88_inits.json
