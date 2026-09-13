@@ -1,0 +1,11 @@
+[queue] GPU2 parallel plan: rand220-223, then rand224-227
+[wave] launch uniform rand220
+[wave] launch uniform rand221
+[wave] launch uniform rand222
+[wave] launch uniform rand223
+[queue] first uniform wave complete; launching second wave
+[wave] launch uniform rand224
+[wave] launch uniform rand225
+[wave] launch uniform rand226
+[wave] launch uniform rand227
+[queue] all uniform random runs complete

@@ -1,0 +1,3 @@
+[done] rand223
+[final] score=0.0004960898 wNMSE=1.3410227e-07 wMSE=4.0000 wMRED=0.00114843 wER=0.109375 wMAE=0.6250 wBias=0.0000 condBias=1.0000 dotDrift=+0.000sigma uMRED=0.0011484255 uER=0.109375 uMAE=0.6250 WCE=8 bias=0.0000
+[json] /home/xuanqi/tony/work/FPGA/signed8x8_approx/signed8x8_2026_8_22/runs_uniform/quality/rand223/refined/best_signed88_inits.json
