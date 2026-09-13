@@ -1,0 +1,10 @@
+[queue] GPU0 parallel plan: rand221-223, then rand224-227
+[wave] launch Qwen rand221
+[wave] launch Qwen rand222
+[wave] launch Qwen rand223
+[queue] first Qwen wave complete; launching second wave
+[wave] launch Qwen rand224
+[wave] launch Qwen rand225
+[wave] launch Qwen rand226
+[wave] launch Qwen rand227
+[queue] all extra Qwen random runs complete
