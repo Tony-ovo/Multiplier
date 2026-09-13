@@ -1,0 +1,52 @@
+{
+  "steps": [
+    {
+      "stage": "basin",
+      "flips": [
+        "cp_lut01:59",
+        "cp_lut45:31",
+        "cp_lut23:7"
+      ],
+      "old_score": 0.0009882491049427906,
+      "new_score": 0.0009881355866395874,
+      "metrics": {
+        "total_cases": 65536,
+        "error_cases": 8448,
+        "ER": 0.12890625,
+        "MED": 1.28125,
+        "NED": 7.82012939453125e-05,
+        "MRED": 0.0020336299535028985,
+        "MRED_total": 0.002017773250221649,
+        "WCE": 16,
+        "RMSE": 4.0,
+        "bias": 0.0,
+        "zero_violations": 0,
+        "symmetry_violations": 15168,
+        "objective_score": 0.0009881355866395874,
+        "workload_ER": 0.12890625,
+        "workload_MED": 1.28125,
+        "workload_NED": 7.82012939453125e-05,
+        "workload_MRED": 0.0020336299535028985,
+        "workload_MRED_total": 0.002017773250221649,
+        "workload_WCE": 16,
+        "workload_RMSE": 4.0,
+        "workload_bias": 0.0,
+        "workload_zero_violation_probability": 0.0,
+        "workload_zero_violation_rate": 0.0,
+        "MSE": 16.0,
+        "NMSE": 5.364090626679919e-07,
+        "workload_MSE": 16.0,
+        "workload_NMSE": 5.364090626679919e-07,
+        "workload_bias_squared_normalized": 0.0,
+        "workload_conditional_bias_a_rms": 2.0,
+        "workload_conditional_bias_b_rms": 0.0,
+        "workload_conditional_bias_excess_normalized": 6.705113283349899e-08,
+        "workload_bias_accumulation_penalty": 0.0,
+        "workload_conditional_bias_penalty": 0.00027457438895317834,
+        "workload_gemm_NMSE": 8.109834516211703e-07,
+        "workload_predicted_dot_RMSE": 256.0,
+        "workload_bias_drift_sigma": 0.0
+      }
+    }
+  ]
+}
