@@ -1,0 +1,68 @@
+[preflight] objective_schema=aligned_ai_metrics_v2
+[preflight] loss_mode=legacy_aligned
+[launch] 2026-09-16T13:53:38+08:00 gpu=0 quality/base_q080 topology=quality loss_mode=legacy_aligned
+[launch] 2026-09-16T13:53:38+08:00 gpu=1 quality/rand613 topology=quality loss_mode=legacy_aligned
+[launch] 2026-09-16T13:53:38+08:00 gpu=1 quality/rand612 topology=quality loss_mode=legacy_aligned
+[launch] 2026-09-16T13:53:38+08:00 gpu=0 quality/rand611 topology=quality loss_mode=legacy_aligned
+[launch] 2026-09-16T13:53:38+08:00 gpu=0 quality/base_q055 topology=quality loss_mode=legacy_aligned
+[launch] 2026-09-16T13:53:38+08:00 gpu=0 quality/rand610 topology=quality loss_mode=legacy_aligned
+[launch] 2026-09-16T13:53:38+08:00 gpu=4 default/rand612 topology=default_split loss_mode=legacy_aligned
+[launch] 2026-09-16T13:53:38+08:00 gpu=1 quality/rand615 topology=quality loss_mode=legacy_aligned
+[launch] 2026-09-16T13:53:38+08:00 gpu=4 default/rand614 topology=default_split loss_mode=legacy_aligned
+[launch] 2026-09-16T13:53:38+08:00 gpu=1 quality/rand614 topology=quality loss_mode=legacy_aligned
+[queue-started] 2026-09-16T13:53:38+08:00 pids=713375 713376 713377 713378 713379 713380 713381 713383 713384 713385 713386 713388 713389 713390 713391 713393
+[launch] 2026-09-16T13:53:38+08:00 gpu=5 balanced/rand614 topology=balanced_split loss_mode=legacy_aligned
+[launch] 2026-09-16T13:53:38+08:00 gpu=4 default/rand613 topology=default_split loss_mode=legacy_aligned
+[launch] 2026-09-16T13:53:38+08:00 gpu=5 balanced/rand613 topology=balanced_split loss_mode=legacy_aligned
+[launch] 2026-09-16T13:53:38+08:00 gpu=5 balanced/rand615 topology=balanced_split loss_mode=legacy_aligned
+[launch] 2026-09-16T13:53:38+08:00 gpu=4 default/rand615 topology=default_split loss_mode=legacy_aligned
+[launch] 2026-09-16T13:53:38+08:00 gpu=5 balanced/rand612 topology=balanced_split loss_mode=legacy_aligned
+[done] 2026-09-16T15:43:27+08:00 gpu=1 quality/rand615
+[launch] 2026-09-16T15:43:27+08:00 gpu=1 balanced/rand611 topology=balanced_split loss_mode=legacy_aligned
+[done] 2026-09-16T15:43:29+08:00 gpu=0 quality/rand610
+[launch] 2026-09-16T15:43:29+08:00 gpu=0 default/base_q055 topology=default_split loss_mode=legacy_aligned
+[done] 2026-09-16T15:44:03+08:00 gpu=1 quality/rand612
+[launch] 2026-09-16T15:44:03+08:00 gpu=1 default/rand610 topology=default_split loss_mode=legacy_aligned
+[done] 2026-09-16T15:44:17+08:00 gpu=0 quality/rand611
+[launch] 2026-09-16T15:44:17+08:00 gpu=0 balanced/base_q055 topology=balanced_split loss_mode=legacy_aligned
+[done] 2026-09-16T15:44:49+08:00 gpu=0 quality/base_q055
+[launch] 2026-09-16T15:44:49+08:00 gpu=0 balanced/base_q080 topology=balanced_split loss_mode=legacy_aligned
+[done] 2026-09-16T15:45:56+08:00 gpu=1 quality/rand613
+[launch] 2026-09-16T15:45:56+08:00 gpu=1 balanced/rand610 topology=balanced_split loss_mode=legacy_aligned
+[done] 2026-09-16T15:46:11+08:00 gpu=0 quality/base_q080
+[launch] 2026-09-16T15:46:11+08:00 gpu=0 default/base_q080 topology=default_split loss_mode=legacy_aligned
+[done] 2026-09-16T15:46:26+08:00 gpu=1 quality/rand614
+[launch] 2026-09-16T15:46:26+08:00 gpu=1 default/rand611 topology=default_split loss_mode=legacy_aligned
+[done] 2026-09-16T16:57:29+08:00 gpu=5 balanced/rand613
+[worker-done] id=w13 gpu=5 failures=0
+[done] 2026-09-16T16:58:05+08:00 gpu=5 balanced/rand614
+[worker-done] id=w14 gpu=5 failures=0
+[done] 2026-09-16T16:59:17+08:00 gpu=5 balanced/rand612
+[worker-done] id=w12 gpu=5 failures=0
+[done] 2026-09-16T17:01:38+08:00 gpu=5 balanced/rand615
+[worker-done] id=w15 gpu=5 failures=0
+[done] 2026-09-16T18:12:03+08:00 gpu=4 default/rand615
+[worker-done] id=w11 gpu=4 failures=0
+[done] 2026-09-16T18:14:07+08:00 gpu=4 default/rand614
+[worker-done] id=w10 gpu=4 failures=0
+[done] 2026-09-16T18:14:21+08:00 gpu=4 default/rand612
+[worker-done] id=w08 gpu=4 failures=0
+[done] 2026-09-16T18:18:02+08:00 gpu=4 default/rand613
+[worker-done] id=w09 gpu=4 failures=0
+[done] 2026-09-16T18:45:26+08:00 gpu=1 balanced/rand611
+[worker-done] id=w07 gpu=1 failures=0
+[done] 2026-09-16T18:46:15+08:00 gpu=0 balanced/base_q055
+[worker-done] id=w03 gpu=0 failures=0
+[done] 2026-09-16T18:46:57+08:00 gpu=1 balanced/rand610
+[worker-done] id=w05 gpu=1 failures=0
+[done] 2026-09-16T18:52:41+08:00 gpu=0 balanced/base_q080
+[worker-done] id=w01 gpu=0 failures=0
+[done] 2026-09-16T19:55:15+08:00 gpu=1 default/rand610
+[worker-done] id=w04 gpu=1 failures=0
+[done] 2026-09-16T19:55:20+08:00 gpu=0 default/base_q055
+[worker-done] id=w02 gpu=0 failures=0
+[done] 2026-09-16T19:58:25+08:00 gpu=0 default/base_q080
+[worker-done] id=w00 gpu=0 failures=0
+[done] 2026-09-16T19:59:50+08:00 gpu=1 default/rand611
+[worker-done] id=w06 gpu=1 failures=0
+[queue-finished] 2026-09-16T19:59:50+08:00 failed_workers=0

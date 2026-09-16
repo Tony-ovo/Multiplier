@@ -1,0 +1,4 @@
+6e06d6a6a30289faf373123259e118fe1adb91daaee8ff2c4bfd15ced7493629  /home/xuanqi/tony/work/FPGA/signed8x8_approx/signed88_zero_safe_trainer_v1/signed88/losses.py
+1cefa380c1f3b7e52f641095720f617c5dd4bda647dc3468b912407aa602fd69  /home/xuanqi/tony/work/FPGA/signed8x8_approx/signed88_zero_safe_trainer_v1/signed88/metrics.py
+2a1aff45b27dd79672a30979f3209af3ae3ef8ea7309657f6ea03146e88adf78  /home/xuanqi/tony/work/FPGA/signed8x8_approx/signed8x8_2026_8_22/train_quad_zero_safe_v1.py
+b62ec2ee2f6cd0dc5fb0a8ba6e8d960ff74b645ed7416425b0e60544a7cbf6c2  /home/xuanqi/tony/work/FPGA/signed8x8_approx/signed8x8_2026_8_22/run_quad_zero_safe_v1.sh
