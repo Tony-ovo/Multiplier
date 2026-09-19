@@ -1,0 +1,20 @@
+{
+  "accaquad/__init__.py": "93694d16deaca0b1ff926d81befbc6652d6ca4d845965a9197b3a40dd142d70c",
+  "accaquad/artifacts.py": "15f5df39f3d12cf1c937e8d5192bff21af5c3e4f7419efb0c3d0c6f342c73be7",
+  "accaquad/hardware.py": "f3ade96fd02dd28d7124c9990148df69ca43fe9a48cb46c5d0c7eb898312645e",
+  "accaquad/objective.py": "e69dd2ce047ef8699129282e9693c6042e9572216f54fc00a7e1b8961183ca5c",
+  "launch.py": "2c92e1dd5ba7ff6fcba83aa4bf0a561d85eb7331c86595c29df0a33de909adb3",
+  "pipeline.py": "8927cff5e2adca54920ca90b9e30650670eaa97490c90684026e44f97e260e17",
+  "prepare_sources.py": "e5f8482396063b6a6c7f81a8617280f1f34433fc552675f1f0f70fc7c17f10cd",
+  "refine.py": "1d87771e3070d279ceeba2c2390dabb99a16da3b2698e876c8103075a478a4c9",
+  "source_rtl/ACCA.v": "081b4788ecdaa027ee96fcdbc9f8ec332cac0e8e0fd8817d23af64c82d8db638",
+  "source_rtl/ACCA_4444.v": "45e5ee84fba7a067884977410f0cb74262662dde3f654eae0acb4a2db5a49505",
+  "source_rtl/CSAM2.v": "fd00b4eaff7a663031e66294c7b80215a1827d5ed8fd7a6f02ad65c1dcbf8e5a",
+  "source_rtl/tcasi_csam2_core.v": "4547817d7cbc8abfd948501ef975addb74664c1b4aee39859d82f95e2aca66c2",
+  "source_rtl/tcasi_signed_top.v": "34485e61dd1d7a85bfe70ba36708836c180c8a6a0e9cded7158403b2cf0a576e",
+  "summarize.py": "966ce7343e37df21d405e8dc79aeb54105318a214486f9cb0e4d619a612606e7",
+  "train.py": "a29f8df8a6d70adb404624a2e7b61822031f408c2817f3e44329750d5a4da5e2",
+  "validate.py": "df4b1b4ac44d583ed341ab91f5a5fedb87ca16913db8f6640365632859924467",
+  "validate_cuda.py": "a4cdcf153adb344d07b14dcb37e9bf27b070cfa0534ebf7c20432ed41ddbf9a3",
+  "verify_rtl.py": "435a18dc13f0c644e4fc2b74acef4e1b570636ab4063c70c2a2bb7c6c60ee476"
+}
